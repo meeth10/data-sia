@@ -386,5 +386,19 @@
         "rel": "uses_framework"
       }
     ]
+  },
+  {
+    "type": "case-study",
+    "tags": [],
+    "links": [],
+    "name": "ll",
+    "year": "",
+    "industry": "",
+    "summary": "",
+    "rootCause": "",
+    "warningSignsIgnored": "",
+    "lessons": "",
+    "outcome": "",
+    "id": "e1780691857618"
   }
 ]
