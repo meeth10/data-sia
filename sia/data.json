@@ -1,0 +1,390 @@
+[
+  {
+    "id": "con1",
+    "type": "concept",
+    "name": "Innovator's Dilemma",
+    "description": "Incumbents focus on sustaining innovations for current customers, ignoring disruptive tech that initially underperforms on mainstream metrics but eventually displaces them.",
+    "examples": "Kodak ignored digital cameras it invented. Nokia dismissed smartphone as a platform. Blockbuster ignored streaming.",
+    "counterExamples": "Amazon cannibalizing its retail with AWS and Kindle. Netflix proactively killing its own DVD business.",
+    "tags": [
+      "Platform Disruption",
+      "Technology",
+      "Academic"
+    ],
+    "links": []
+  },
+  {
+    "id": "con2",
+    "type": "concept",
+    "name": "Platform Disruption",
+    "description": "A challenger builds an ecosystem/platform that enables third parties to create value, eventually outcompeting vertically integrated incumbents on both quality and cost.",
+    "examples": "iOS/Android vs Symbian. Stripe vs traditional payment processors. Airbnb vs hotels.",
+    "counterExamples": "WeWork tried to claim platform dynamics but had none — pure real estate.",
+    "tags": [
+      "Platform Disruption",
+      "Network Effects",
+      "Technology"
+    ],
+    "links": [
+      {
+        "targetId": "con1",
+        "rel": "related_to"
+      }
+    ]
+  },
+  {
+    "id": "con3",
+    "type": "concept",
+    "name": "Capital Allocation",
+    "description": "The single most important function of a CEO: directing resources toward highest-return opportunities. Most value creation and destruction happens here.",
+    "examples": "Berkshire's continuous reallocation. Jio's $30B network bet. Buffett's insurance float as perpetual low-cost capital.",
+    "counterExamples": "GE Capital under Welch — financial leverage masking industrial decay. Kingfisher Airlines debt-funded expansion.",
+    "tags": [
+      "Capital Allocation",
+      "Financial Services",
+      "Academic"
+    ],
+    "links": []
+  },
+  {
+    "id": "con4",
+    "type": "concept",
+    "name": "Ecosystem Lock-in",
+    "description": "Users face high switching costs not because of the core product but because of the interconnected web of complementary services, data, and network effects around it.",
+    "examples": "Apple: iPhone + App Store + iCloud + AirPods + Watch. Salesforce: CRM + integrations + AppExchange.",
+    "counterExamples": "BlackBerry OS had no app ecosystem — switching cost was hardware, easily overcome.",
+    "tags": [
+      "Network Effects",
+      "Technology"
+    ],
+    "links": [
+      {
+        "targetId": "con2",
+        "rel": "related_to"
+      }
+    ]
+  },
+  {
+    "id": "fw1",
+    "type": "framework",
+    "name": "Porter's Five Forces",
+    "author": "Michael Porter",
+    "year": "1979",
+    "description": "Analyzes industry profitability through five structural forces: competitive rivalry, threat of new entrants, threat of substitutes, bargaining power of buyers, and bargaining power of suppliers.",
+    "keyComponents": "1. Competitive Rivalry\n2. Threat of New Entrants\n3. Threat of Substitutes\n4. Buyer Power\n5. Supplier Power",
+    "useCases": "Industry attractiveness assessment. Pre-entry market analysis. M&A target screening.",
+    "tags": [
+      "Academic"
+    ],
+    "links": []
+  },
+  {
+    "id": "fw2",
+    "type": "framework",
+    "name": "Innovator's Dilemma Framework",
+    "author": "Clayton Christensen",
+    "year": "1997",
+    "description": "Explains why successful companies fail: sustaining innovations serve existing customers well but leave firms vulnerable to disruptive entrants targeting non-consumption or low-end segments.",
+    "keyComponents": "1. Sustaining vs Disruptive innovation\n2. Trajectory of improvement vs customer need\n3. Value network analysis\n4. Response strategies: spinout, acquisition",
+    "useCases": "Tech disruption analysis. New entrant threat assessment. Portfolio strategy for incumbents.",
+    "tags": [
+      "Innovator's Dilemma",
+      "Technology",
+      "Academic"
+    ],
+    "links": [
+      {
+        "targetId": "con1",
+        "rel": "illustrates"
+      },
+      {
+        "targetId": "fw1",
+        "rel": "related_to"
+      }
+    ]
+  },
+  {
+    "id": "fw3",
+    "type": "framework",
+    "name": "Blue Ocean Strategy",
+    "author": "Kim & Mauborgne",
+    "year": "2005",
+    "description": "Create uncontested market space by making the competition irrelevant. ERRC grid to reconstruct market boundaries.",
+    "keyComponents": "1. ERRC Grid (Eliminate-Reduce-Raise-Create)\n2. Strategy Canvas\n3. Four Actions Framework\n4. Non-customer analysis",
+    "useCases": "New market creation. Product redesign. Competitive positioning reset.",
+    "tags": [
+      "Academic"
+    ],
+    "links": []
+  },
+  {
+    "id": "fw4",
+    "type": "framework",
+    "name": "VRIO Framework",
+    "author": "Jay Barney",
+    "year": "1991",
+    "description": "Evaluates whether a firm's resources are sources of sustained competitive advantage: Valuable, Rare, Inimitable, Organized.",
+    "keyComponents": "V - Valuable\nR - Rare\nI - Inimitable (costly to copy)\nO - Organized to capture value",
+    "useCases": "Internal analysis. M&A due diligence. Competitive advantage durability assessment.",
+    "tags": [
+      "Academic"
+    ],
+    "links": []
+  },
+  {
+    "id": "co1",
+    "type": "company",
+    "name": "Nokia",
+    "sector": "Technology / Telecom",
+    "founded": "1865",
+    "description": "Finnish multinational that dominated global mobile phone markets in early 2000s before collapsing under iOS/Android disruption. Peak market cap ~$110B in 2000.",
+    "revenueEngine": "Hardware device sales. Symbian licensing. Network infrastructure (separate division).",
+    "flywheel": "Operator distribution -> volume scale -> component cost advantage -> price competitiveness -> more operator deals. Worked until platform mattered more than hardware.",
+    "switchingCosts": "Low consumer switching costs. App ecosystem switching costs near zero on Symbian.",
+    "failurePoints": "Symbian too old and fragile. No developer ecosystem. Hardware engineers dominated; software treated as secondary.",
+    "tags": [
+      "Technology",
+      "Telecom",
+      "Failure",
+      "Platform Disruption",
+      "Europe",
+      "2000s"
+    ],
+    "links": []
+  },
+  {
+    "id": "co2",
+    "type": "company",
+    "name": "Kodak",
+    "sector": "Technology / Consumer",
+    "founded": "1892",
+    "description": "American photography giant. Dominated film and camera markets for a century. Invented the digital camera in 1975 but failed to commercialize it. Filed Chapter 11 in 2012.",
+    "revenueEngine": "Film sales (razor/blade — cameras priced low, film at 60%+ gross margin). Chemical processing.",
+    "flywheel": "Film manufacturing scale -> cost leadership -> retail distribution -> consumer brand trust -> film repurchase. Destroyed by digital.",
+    "failurePoints": "Business model entirely dependent on consumable film. Digital photography eliminated the recurring revenue stream.",
+    "tags": [
+      "Technology",
+      "Failure",
+      "Innovator's Dilemma",
+      "USA",
+      "1990s",
+      "2000s"
+    ],
+    "links": []
+  },
+  {
+    "id": "co3",
+    "type": "company",
+    "name": "Netflix",
+    "sector": "Media / Technology",
+    "founded": "1997",
+    "description": "Streaming giant. Started as DVD-by-mail, proactively cannibalized its own business with streaming. Now a global content platform with 260M+ subscribers.",
+    "revenueEngine": "Subscription revenue (monthly recurring). Content amortized over subscriber base.",
+    "flywheel": "More subscribers -> more content budget -> better content -> more subscribers. Data advantage informs content investment.",
+    "switchingCosts": "Moderate: original content exclusivity creates sticky library.",
+    "tags": [
+      "Media",
+      "Technology",
+      "Success",
+      "Platform Disruption",
+      "USA",
+      "2000s",
+      "2010s"
+    ],
+    "links": []
+  },
+  {
+    "id": "co4",
+    "type": "company",
+    "name": "Reliance Jio",
+    "sector": "Telecom / Technology",
+    "founded": "2016",
+    "description": "Reliance Industries' telecom arm. Launched with free data in 2016, permanently disrupted Indian telecom economics. Built $30B+ network infrastructure.",
+    "revenueEngine": "Mobile subscriptions. JioCinema, JioFiber. Ancillary digital services.",
+    "flywheel": "Cheapest data -> massive user base -> content/services platform -> monetize at scale -> fund further infrastructure.",
+    "switchingCosts": "Growing: JioCinema (IPL rights), JioFiber bundling, digital payments integration.",
+    "tags": [
+      "Telecom",
+      "Technology",
+      "Success",
+      "Network Effects",
+      "India",
+      "2010s",
+      "2020s"
+    ],
+    "links": []
+  },
+  {
+    "id": "cs1",
+    "type": "case-study",
+    "name": "Nokia: Platform Collapse",
+    "industry": "Technology / Telecom",
+    "year": "2007",
+    "outcome": "Failure",
+    "summary": "Nokia, holding 40% global handset market share, failed to recognize the iPhone as a platform shift. Its response — Symbian upgrades — was structurally incapable of competing with iOS/Android ecosystems.",
+    "rootCause": "1. Symbian unmaintainable (millions of lines of C++, different variants per handset).\n2. Internal silos: software engineers had no power vs hardware.\n3. Incentive structures rewarded hardware volume, not platform adoption.",
+    "warningSignsIgnored": "RIM gaining enterprise share through software. iPhone dismissed as 'too expensive.' Android ecosystem growing at 10x Symbian rate. Internal written warnings about Symbian's ceiling (2005-2007).",
+    "lessons": "1. Platform beats product — evaluate the ecosystem, not just the device.\n2. Software capability cannot be acquired quickly.\n3. Fear of cannibalization kills faster than external competition.",
+    "tags": [
+      "Technology",
+      "Telecom",
+      "Platform Disruption",
+      "Failure",
+      "Europe",
+      "2000s",
+      "2010s"
+    ],
+    "links": [
+      {
+        "targetId": "co1",
+        "rel": "involves"
+      },
+      {
+        "targetId": "fw2",
+        "rel": "uses_framework"
+      },
+      {
+        "targetId": "con1",
+        "rel": "illustrates"
+      },
+      {
+        "targetId": "con2",
+        "rel": "illustrates"
+      }
+    ]
+  },
+  {
+    "id": "cs2",
+    "type": "case-study",
+    "name": "Kodak: Invented It, Couldn't Use It",
+    "industry": "Technology / Consumer",
+    "year": "1975",
+    "outcome": "Failure",
+    "summary": "Kodak engineer Steve Sasson invented the digital camera in 1975. The company shelved it for 20 years to protect film margins. Filed Chapter 11 in 2012.",
+    "rootCause": "1. Film was 60%+ gross margin — no manager wanted to cannibalize it.\n2. Razor-blade model created structural dependency on consumables.\n3. No software culture — Kodak was a chemistry and manufacturing company.",
+    "warningSignsIgnored": "Own internal digital camera project (1975). Japan consumer electronics moving into digital through 1990s. Film volume declining year-on-year from 1999.",
+    "lessons": "1. Owning the patent on the future does not mean you'll profit from it.\n2. Margin protection = innovation suppression.\n3. Structural solutions needed — cultural change alone fails.",
+    "tags": [
+      "Innovator's Dilemma",
+      "Technology",
+      "Failure",
+      "USA",
+      "1990s",
+      "2000s"
+    ],
+    "links": [
+      {
+        "targetId": "co2",
+        "rel": "involves"
+      },
+      {
+        "targetId": "fw2",
+        "rel": "uses_framework"
+      },
+      {
+        "targetId": "con1",
+        "rel": "illustrates"
+      }
+    ]
+  },
+  {
+    "id": "cs3",
+    "type": "case-study",
+    "name": "Netflix vs Blockbuster",
+    "industry": "Media / Entertainment",
+    "year": "2004",
+    "outcome": "Success",
+    "summary": "Netflix built a subscription DVD-by-mail model eliminating late fees (Blockbuster's key revenue line and biggest customer grievance). When streaming became viable, Netflix proactively cannibalized its own DVD business.",
+    "rootCause": "Blockbuster's failure: late fees were 16% of revenue — structurally impossible to eliminate. Store footprint (9,000+ locations) was a liability in streaming era.",
+    "warningSignsIgnored": "By Blockbuster: Netflix subscriber growth 2002-2005 was unambiguous. Consumer surveys consistently cited late fees as #1 pain point.",
+    "lessons": "1. Willingness to cannibalize yourself is the most powerful strategic weapon.\n2. The incumbent's strength (physical stores) became its prison.\n3. Subscription models that eliminate friction displace transaction models.",
+    "tags": [
+      "Platform Disruption",
+      "Media",
+      "Success",
+      "USA",
+      "2000s",
+      "2010s"
+    ],
+    "links": [
+      {
+        "targetId": "co3",
+        "rel": "involves"
+      },
+      {
+        "targetId": "fw1",
+        "rel": "uses_framework"
+      },
+      {
+        "targetId": "fw3",
+        "rel": "uses_framework"
+      },
+      {
+        "targetId": "con2",
+        "rel": "illustrates"
+      }
+    ]
+  },
+  {
+    "id": "cs4",
+    "type": "case-study",
+    "name": "Jio: Weaponizing Capital",
+    "industry": "Telecom / India",
+    "year": "2016",
+    "outcome": "Success",
+    "summary": "Reliance invested $30B+ building India's only pan-India 4G LTE network before launching commercially. Launched with 6 months of free data in 2016. Within 18 months, three incumbents exited.",
+    "rootCause": "Patient capital from Mukesh Ambani. Greenfield network on latest technology — no legacy costs. Priced at marginal cost to acquire user base. Government spectrum policy created an entry window.",
+    "warningSignsIgnored": "By incumbents: Reliance's spectrum acquisitions 2012–2016 clearly signaled intent. Announced $20B investment publicly. Incumbents assumed it would be another Reliance Communications failure.",
+    "lessons": "1. Capital as competitive weapon — incumbents cannot match greenfield economics.\n2. Platform logic: cheap data -> digital services monetization -> the real business.\n3. Regulatory windows are temporary — move when they open.",
+    "tags": [
+      "Telecom",
+      "Capital Allocation",
+      "India",
+      "Success",
+      "2010s"
+    ],
+    "links": [
+      {
+        "targetId": "co4",
+        "rel": "involves"
+      },
+      {
+        "targetId": "con3",
+        "rel": "illustrates"
+      },
+      {
+        "targetId": "con4",
+        "rel": "illustrates"
+      }
+    ]
+  },
+  {
+    "id": "cs5",
+    "type": "case-study",
+    "name": "WeWork: Governance Catastrophe",
+    "industry": "Real Estate",
+    "year": "2019",
+    "outcome": "Failure",
+    "summary": "WeWork raised $12.8B at valuations up to $47B by claiming tech platform economics. The 2019 IPO S-1 exposed: $47B in lease liabilities vs $2.4B revenue, Neumann extracting $700M via secondaries.",
+    "rootCause": "1. SoftBank Vision Fund with $100B+ enabled ego-driven capital deployment with no governance.\n2. Supervoting shares (20:1) — Neumann had absolute control.\n3. 'Tech premium' on real estate requires demonstrated network effects — WeWork had none.",
+    "warningSignsIgnored": "'Community-adjusted EBITDA' invented to exclude actual costs. Neumann trademarked 'We' and licensed it back to WeWork for $5.9M. Lease obligations growing 3x faster than revenue.",
+    "lessons": "1. Supervoting share structures enable founder extraction at shareholder expense.\n2. Invented financial metrics almost always conceal something.\n3. 'Tech premium' requires demonstrated network effects or data advantage.",
+    "tags": [
+      "Governance Failure",
+      "Real Estate",
+      "Failure",
+      "USA",
+      "2010s"
+    ],
+    "links": [
+      {
+        "targetId": "con3",
+        "rel": "illustrates"
+      },
+      {
+        "targetId": "fw4",
+        "rel": "uses_framework"
+      }
+    ]
+  }
+]
