@@ -46,20 +46,6 @@
     ]
   },
   {
-    "id": "fw4",
-    "type": "framework",
-    "name": "VRIO Framework",
-    "author": "Jay Barney",
-    "year": "1991",
-    "description": "Evaluates whether a firm's resources are sources of sustained competitive advantage: Valuable, Rare, Inimitable, Organized.",
-    "keyComponents": "V - Valuable\nR - Rare\nI - Inimitable (costly to copy)\nO - Organized to capture value",
-    "useCases": "Internal analysis. M&A due diligence. Competitive advantage durability assessment.",
-    "tags": [
-      "Academic"
-    ],
-    "links": []
-  },
-  {
     "id": "co1",
     "type": "company",
     "name": "Nokia",
@@ -284,10 +270,6 @@
       {
         "targetId": "con3",
         "rel": "illustrates"
-      },
-      {
-        "targetId": "fw4",
-        "rel": "uses_framework"
       }
     ]
   }
