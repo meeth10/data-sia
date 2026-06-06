@@ -46,22 +46,6 @@
     ]
   },
   {
-    "id": "fw2",
-    "type": "framework",
-    "name": "Innovator's Dilemma Framework",
-    "author": "Clayton Christensen",
-    "year": "1997",
-    "description": "Explains why successful companies fail: sustaining innovations serve existing customers well but leave firms vulnerable to disruptive entrants targeting non-consumption or low-end segments.",
-    "keyComponents": "1. Sustaining vs Disruptive innovation\n2. Trajectory of improvement vs customer need\n3. Value network analysis\n4. Response strategies: spinout, acquisition",
-    "useCases": "Tech disruption analysis. New entrant threat assessment. Portfolio strategy for incumbents.",
-    "tags": [
-      "Innovator's Dilemma",
-      "Technology",
-      "Academic"
-    ],
-    "links": []
-  },
-  {
     "id": "fw3",
     "type": "framework",
     "name": "Blue Ocean Strategy",
@@ -198,10 +182,6 @@
         "rel": "involves"
       },
       {
-        "targetId": "fw2",
-        "rel": "uses_framework"
-      },
-      {
         "targetId": "con2",
         "rel": "illustrates"
       }
@@ -230,10 +210,6 @@
       {
         "targetId": "co2",
         "rel": "involves"
-      },
-      {
-        "targetId": "fw2",
-        "rel": "uses_framework"
       }
     ]
   },
