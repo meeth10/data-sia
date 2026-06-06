@@ -1,16 +1,1 @@
-[
-  {
-    "id": "con3",
-    "type": "concept",
-    "name": "Capital Allocation",
-    "description": "The single most important function of a CEO: directing resources toward highest-return opportunities. Most value creation and destruction happens here.",
-    "examples": "Berkshire's continuous reallocation. Jio's $30B network bet. Buffett's insurance float as perpetual low-cost capital.",
-    "counterExamples": "GE Capital under Welch — financial leverage masking industrial decay. Kingfisher Airlines debt-funded expansion.",
-    "tags": [
-      "Capital Allocation",
-      "Financial Services",
-      "Academic"
-    ],
-    "links": []
-  }
-]
+[]
