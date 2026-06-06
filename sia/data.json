@@ -46,20 +46,6 @@
     ]
   },
   {
-    "id": "fw1",
-    "type": "framework",
-    "name": "Porter's Five Forces",
-    "author": "Michael Porter",
-    "year": "1979",
-    "description": "Analyzes industry profitability through five structural forces: competitive rivalry, threat of new entrants, threat of substitutes, bargaining power of buyers, and bargaining power of suppliers.",
-    "keyComponents": "1. Competitive Rivalry\n2. Threat of New Entrants\n3. Threat of Substitutes\n4. Buyer Power\n5. Supplier Power",
-    "useCases": "Industry attractiveness assessment. Pre-entry market analysis. M&A target screening.",
-    "tags": [
-      "Academic"
-    ],
-    "links": []
-  },
-  {
     "id": "fw2",
     "type": "framework",
     "name": "Innovator's Dilemma Framework",
@@ -73,12 +59,7 @@
       "Technology",
       "Academic"
     ],
-    "links": [
-      {
-        "targetId": "fw1",
-        "rel": "related_to"
-      }
-    ]
+    "links": []
   },
   {
     "id": "fw3",
@@ -279,10 +260,6 @@
       {
         "targetId": "co3",
         "rel": "involves"
-      },
-      {
-        "targetId": "fw1",
-        "rel": "uses_framework"
       },
       {
         "targetId": "fw3",
