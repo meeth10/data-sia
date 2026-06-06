@@ -46,20 +46,6 @@
     ]
   },
   {
-    "id": "fw3",
-    "type": "framework",
-    "name": "Blue Ocean Strategy",
-    "author": "Kim & Mauborgne",
-    "year": "2005",
-    "description": "Create uncontested market space by making the competition irrelevant. ERRC grid to reconstruct market boundaries.",
-    "keyComponents": "1. ERRC Grid (Eliminate-Reduce-Raise-Create)\n2. Strategy Canvas\n3. Four Actions Framework\n4. Non-customer analysis",
-    "useCases": "New market creation. Product redesign. Competitive positioning reset.",
-    "tags": [
-      "Academic"
-    ],
-    "links": []
-  },
-  {
     "id": "fw4",
     "type": "framework",
     "name": "VRIO Framework",
@@ -236,10 +222,6 @@
       {
         "targetId": "co3",
         "rel": "involves"
-      },
-      {
-        "targetId": "fw3",
-        "rel": "uses_framework"
       },
       {
         "targetId": "con2",
