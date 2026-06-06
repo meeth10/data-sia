@@ -25,26 +25,5 @@
       "Technology"
     ],
     "links": []
-  },
-  {
-    "id": "co1",
-    "type": "company",
-    "name": "Nokia",
-    "sector": "Technology / Telecom",
-    "founded": "1865",
-    "description": "Finnish multinational that dominated global mobile phone markets in early 2000s before collapsing under iOS/Android disruption. Peak market cap ~$110B in 2000.",
-    "revenueEngine": "Hardware device sales. Symbian licensing. Network infrastructure (separate division).",
-    "flywheel": "Operator distribution -> volume scale -> component cost advantage -> price competitiveness -> more operator deals. Worked until platform mattered more than hardware.",
-    "switchingCosts": "Low consumer switching costs. App ecosystem switching costs near zero on Symbian.",
-    "failurePoints": "Symbian too old and fragile. No developer ecosystem. Hardware engineers dominated; software treated as secondary.",
-    "tags": [
-      "Technology",
-      "Telecom",
-      "Failure",
-      "Platform Disruption",
-      "Europe",
-      "2000s"
-    ],
-    "links": []
   }
 ]
