@@ -144,30 +144,5 @@
         "rel": "illustrates"
       }
     ]
-  },
-  {
-    "id": "cs5",
-    "type": "case-study",
-    "name": "WeWork: Governance Catastrophe",
-    "industry": "Real Estate",
-    "year": "2019",
-    "outcome": "Failure",
-    "summary": "WeWork raised $12.8B at valuations up to $47B by claiming tech platform economics. The 2019 IPO S-1 exposed: $47B in lease liabilities vs $2.4B revenue, Neumann extracting $700M via secondaries.",
-    "rootCause": "1. SoftBank Vision Fund with $100B+ enabled ego-driven capital deployment with no governance.\n2. Supervoting shares (20:1) — Neumann had absolute control.\n3. 'Tech premium' on real estate requires demonstrated network effects — WeWork had none.",
-    "warningSignsIgnored": "'Community-adjusted EBITDA' invented to exclude actual costs. Neumann trademarked 'We' and licensed it back to WeWork for $5.9M. Lease obligations growing 3x faster than revenue.",
-    "lessons": "1. Supervoting share structures enable founder extraction at shareholder expense.\n2. Invented financial metrics almost always conceal something.\n3. 'Tech premium' requires demonstrated network effects or data advantage.",
-    "tags": [
-      "Governance Failure",
-      "Real Estate",
-      "Failure",
-      "USA",
-      "2010s"
-    ],
-    "links": [
-      {
-        "targetId": "con3",
-        "rel": "illustrates"
-      }
-    ]
   }
 ]
