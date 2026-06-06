@@ -1,19 +1,5 @@
 [
   {
-    "id": "con1",
-    "type": "concept",
-    "name": "Innovator's Dilemma",
-    "description": "Incumbents focus on sustaining innovations for current customers, ignoring disruptive tech that initially underperforms on mainstream metrics but eventually displaces them.",
-    "examples": "Kodak ignored digital cameras it invented. Nokia dismissed smartphone as a platform. Blockbuster ignored streaming.",
-    "counterExamples": "Amazon cannibalizing its retail with AWS and Kindle. Netflix proactively killing its own DVD business.",
-    "tags": [
-      "Platform Disruption",
-      "Technology",
-      "Academic"
-    ],
-    "links": []
-  },
-  {
     "id": "con2",
     "type": "concept",
     "name": "Platform Disruption",
@@ -25,12 +11,7 @@
       "Network Effects",
       "Technology"
     ],
-    "links": [
-      {
-        "targetId": "con1",
-        "rel": "related_to"
-      }
-    ]
+    "links": []
   },
   {
     "id": "con3",
@@ -93,10 +74,6 @@
       "Academic"
     ],
     "links": [
-      {
-        "targetId": "con1",
-        "rel": "illustrates"
-      },
       {
         "targetId": "fw1",
         "rel": "related_to"
@@ -244,10 +221,6 @@
         "rel": "uses_framework"
       },
       {
-        "targetId": "con1",
-        "rel": "illustrates"
-      },
-      {
         "targetId": "con2",
         "rel": "illustrates"
       }
@@ -280,10 +253,6 @@
       {
         "targetId": "fw2",
         "rel": "uses_framework"
-      },
-      {
-        "targetId": "con1",
-        "rel": "illustrates"
       }
     ]
   },
