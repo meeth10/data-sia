@@ -48,26 +48,6 @@
     "links": []
   },
   {
-    "id": "co2",
-    "type": "company",
-    "name": "Kodak",
-    "sector": "Technology / Consumer",
-    "founded": "1892",
-    "description": "American photography giant. Dominated film and camera markets for a century. Invented the digital camera in 1975 but failed to commercialize it. Filed Chapter 11 in 2012.",
-    "revenueEngine": "Film sales (razor/blade — cameras priced low, film at 60%+ gross margin). Chemical processing.",
-    "flywheel": "Film manufacturing scale -> cost leadership -> retail distribution -> consumer brand trust -> film repurchase. Destroyed by digital.",
-    "failurePoints": "Business model entirely dependent on consumable film. Digital photography eliminated the recurring revenue stream.",
-    "tags": [
-      "Technology",
-      "Failure",
-      "Innovator's Dilemma",
-      "USA",
-      "1990s",
-      "2000s"
-    ],
-    "links": []
-  },
-  {
     "id": "co4",
     "type": "company",
     "name": "Reliance Jio",
@@ -134,12 +114,7 @@
       "1990s",
       "2000s"
     ],
-    "links": [
-      {
-        "targetId": "co2",
-        "rel": "involves"
-      }
-    ]
+    "links": []
   },
   {
     "id": "cs3",
