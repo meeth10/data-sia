@@ -48,27 +48,6 @@
     "links": []
   },
   {
-    "id": "co4",
-    "type": "company",
-    "name": "Reliance Jio",
-    "sector": "Telecom / Technology",
-    "founded": "2016",
-    "description": "Reliance Industries' telecom arm. Launched with free data in 2016, permanently disrupted Indian telecom economics. Built $30B+ network infrastructure.",
-    "revenueEngine": "Mobile subscriptions. JioCinema, JioFiber. Ancillary digital services.",
-    "flywheel": "Cheapest data -> massive user base -> content/services platform -> monetize at scale -> fund further infrastructure.",
-    "switchingCosts": "Growing: JioCinema (IPL rights), JioFiber bundling, digital payments integration.",
-    "tags": [
-      "Telecom",
-      "Technology",
-      "Success",
-      "Network Effects",
-      "India",
-      "2010s",
-      "2020s"
-    ],
-    "links": []
-  },
-  {
     "id": "cs1",
     "type": "case-study",
     "name": "Nokia: Platform Collapse",
@@ -156,10 +135,6 @@
       "2010s"
     ],
     "links": [
-      {
-        "targetId": "co4",
-        "rel": "involves"
-      },
       {
         "targetId": "con3",
         "rel": "illustrates"
