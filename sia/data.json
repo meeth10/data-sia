@@ -1,19 +1,5 @@
 [
   {
-    "id": "con2",
-    "type": "concept",
-    "name": "Platform Disruption",
-    "description": "A challenger builds an ecosystem/platform that enables third parties to create value, eventually outcompeting vertically integrated incumbents on both quality and cost.",
-    "examples": "iOS/Android vs Symbian. Stripe vs traditional payment processors. Airbnb vs hotels.",
-    "counterExamples": "WeWork tried to claim platform dynamics but had none — pure real estate.",
-    "tags": [
-      "Platform Disruption",
-      "Network Effects",
-      "Technology"
-    ],
-    "links": []
-  },
-  {
     "id": "con3",
     "type": "concept",
     "name": "Capital Allocation",
@@ -38,12 +24,7 @@
       "Network Effects",
       "Technology"
     ],
-    "links": [
-      {
-        "targetId": "con2",
-        "rel": "related_to"
-      }
-    ]
+    "links": []
   },
   {
     "id": "co1",
@@ -131,10 +112,6 @@
       {
         "targetId": "co1",
         "rel": "involves"
-      },
-      {
-        "targetId": "con2",
-        "rel": "illustrates"
       }
     ]
   },
@@ -183,12 +160,7 @@
       "2000s",
       "2010s"
     ],
-    "links": [
-      {
-        "targetId": "con2",
-        "rel": "illustrates"
-      }
-    ]
+    "links": []
   },
   {
     "id": "cs4",
