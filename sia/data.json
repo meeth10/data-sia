@@ -48,27 +48,6 @@
     "links": []
   },
   {
-    "id": "cs2",
-    "type": "case-study",
-    "name": "Kodak: Invented It, Couldn't Use It",
-    "industry": "Technology / Consumer",
-    "year": "1975",
-    "outcome": "Failure",
-    "summary": "Kodak engineer Steve Sasson invented the digital camera in 1975. The company shelved it for 20 years to protect film margins. Filed Chapter 11 in 2012.",
-    "rootCause": "1. Film was 60%+ gross margin — no manager wanted to cannibalize it.\n2. Razor-blade model created structural dependency on consumables.\n3. No software culture — Kodak was a chemistry and manufacturing company.",
-    "warningSignsIgnored": "Own internal digital camera project (1975). Japan consumer electronics moving into digital through 1990s. Film volume declining year-on-year from 1999.",
-    "lessons": "1. Owning the patent on the future does not mean you'll profit from it.\n2. Margin protection = innovation suppression.\n3. Structural solutions needed — cultural change alone fails.",
-    "tags": [
-      "Innovator's Dilemma",
-      "Technology",
-      "Failure",
-      "USA",
-      "1990s",
-      "2000s"
-    ],
-    "links": []
-  },
-  {
     "id": "cs3",
     "type": "case-study",
     "name": "Netflix vs Blockbuster",
