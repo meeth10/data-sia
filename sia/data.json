@@ -48,27 +48,6 @@
     "links": []
   },
   {
-    "id": "cs3",
-    "type": "case-study",
-    "name": "Netflix vs Blockbuster",
-    "industry": "Media / Entertainment",
-    "year": "2004",
-    "outcome": "Success",
-    "summary": "Netflix built a subscription DVD-by-mail model eliminating late fees (Blockbuster's key revenue line and biggest customer grievance). When streaming became viable, Netflix proactively cannibalized its own DVD business.",
-    "rootCause": "Blockbuster's failure: late fees were 16% of revenue — structurally impossible to eliminate. Store footprint (9,000+ locations) was a liability in streaming era.",
-    "warningSignsIgnored": "By Blockbuster: Netflix subscriber growth 2002-2005 was unambiguous. Consumer surveys consistently cited late fees as #1 pain point.",
-    "lessons": "1. Willingness to cannibalize yourself is the most powerful strategic weapon.\n2. The incumbent's strength (physical stores) became its prison.\n3. Subscription models that eliminate friction displace transaction models.",
-    "tags": [
-      "Platform Disruption",
-      "Media",
-      "Success",
-      "USA",
-      "2000s",
-      "2010s"
-    ],
-    "links": []
-  },
-  {
     "id": "cs4",
     "type": "case-study",
     "name": "Jio: Weaponizing Capital",
