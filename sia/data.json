@@ -12,18 +12,5 @@
       "Academic"
     ],
     "links": []
-  },
-  {
-    "id": "con4",
-    "type": "concept",
-    "name": "Ecosystem Lock-in",
-    "description": "Users face high switching costs not because of the core product but because of the interconnected web of complementary services, data, and network effects around it.",
-    "examples": "Apple: iPhone + App Store + iCloud + AirPods + Watch. Salesforce: CRM + integrations + AppExchange.",
-    "counterExamples": "BlackBerry OS had no app ecosystem — switching cost was hardware, easily overcome.",
-    "tags": [
-      "Network Effects",
-      "Technology"
-    ],
-    "links": []
   }
 ]
