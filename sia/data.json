@@ -48,33 +48,6 @@
     "links": []
   },
   {
-    "id": "cs1",
-    "type": "case-study",
-    "name": "Nokia: Platform Collapse",
-    "industry": "Technology / Telecom",
-    "year": "2007",
-    "outcome": "Failure",
-    "summary": "Nokia, holding 40% global handset market share, failed to recognize the iPhone as a platform shift. Its response — Symbian upgrades — was structurally incapable of competing with iOS/Android ecosystems.",
-    "rootCause": "1. Symbian unmaintainable (millions of lines of C++, different variants per handset).\n2. Internal silos: software engineers had no power vs hardware.\n3. Incentive structures rewarded hardware volume, not platform adoption.",
-    "warningSignsIgnored": "RIM gaining enterprise share through software. iPhone dismissed as 'too expensive.' Android ecosystem growing at 10x Symbian rate. Internal written warnings about Symbian's ceiling (2005-2007).",
-    "lessons": "1. Platform beats product — evaluate the ecosystem, not just the device.\n2. Software capability cannot be acquired quickly.\n3. Fear of cannibalization kills faster than external competition.",
-    "tags": [
-      "Technology",
-      "Telecom",
-      "Platform Disruption",
-      "Failure",
-      "Europe",
-      "2000s",
-      "2010s"
-    ],
-    "links": [
-      {
-        "targetId": "co1",
-        "rel": "involves"
-      }
-    ]
-  },
-  {
     "id": "cs2",
     "type": "case-study",
     "name": "Kodak: Invented It, Couldn't Use It",
