@@ -46,34 +46,5 @@
       "2000s"
     ],
     "links": []
-  },
-  {
-    "id": "cs4",
-    "type": "case-study",
-    "name": "Jio: Weaponizing Capital",
-    "industry": "Telecom / India",
-    "year": "2016",
-    "outcome": "Success",
-    "summary": "Reliance invested $30B+ building India's only pan-India 4G LTE network before launching commercially. Launched with 6 months of free data in 2016. Within 18 months, three incumbents exited.",
-    "rootCause": "Patient capital from Mukesh Ambani. Greenfield network on latest technology — no legacy costs. Priced at marginal cost to acquire user base. Government spectrum policy created an entry window.",
-    "warningSignsIgnored": "By incumbents: Reliance's spectrum acquisitions 2012–2016 clearly signaled intent. Announced $20B investment publicly. Incumbents assumed it would be another Reliance Communications failure.",
-    "lessons": "1. Capital as competitive weapon — incumbents cannot match greenfield economics.\n2. Platform logic: cheap data -> digital services monetization -> the real business.\n3. Regulatory windows are temporary — move when they open.",
-    "tags": [
-      "Telecom",
-      "Capital Allocation",
-      "India",
-      "Success",
-      "2010s"
-    ],
-    "links": [
-      {
-        "targetId": "con3",
-        "rel": "illustrates"
-      },
-      {
-        "targetId": "con4",
-        "rel": "illustrates"
-      }
-    ]
   }
 ]
