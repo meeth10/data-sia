@@ -87,27 +87,6 @@
     "links": []
   },
   {
-    "id": "co3",
-    "type": "company",
-    "name": "Netflix",
-    "sector": "Media / Technology",
-    "founded": "1997",
-    "description": "Streaming giant. Started as DVD-by-mail, proactively cannibalized its own business with streaming. Now a global content platform with 260M+ subscribers.",
-    "revenueEngine": "Subscription revenue (monthly recurring). Content amortized over subscriber base.",
-    "flywheel": "More subscribers -> more content budget -> better content -> more subscribers. Data advantage informs content investment.",
-    "switchingCosts": "Moderate: original content exclusivity creates sticky library.",
-    "tags": [
-      "Media",
-      "Technology",
-      "Success",
-      "Platform Disruption",
-      "USA",
-      "2000s",
-      "2010s"
-    ],
-    "links": []
-  },
-  {
     "id": "co4",
     "type": "company",
     "name": "Reliance Jio",
@@ -205,10 +184,6 @@
       "2010s"
     ],
     "links": [
-      {
-        "targetId": "co3",
-        "rel": "involves"
-      },
       {
         "targetId": "con2",
         "rel": "illustrates"
