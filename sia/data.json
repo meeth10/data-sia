@@ -12,5 +12,32 @@
     "keyComponents": "- We see no Edge with the existing firms. \n- The segment replicates a commodities market ( \"Fish Market\")\n- We see Market Share and Profitability be vary.",
     "useCases": "",
     "id": "e1780931655506"
+  },
+  {
+    "type": "company",
+    "tags": [
+      "Success",
+      "FMCG",
+      "1970s",
+      "1980s",
+      "USA",
+      "Platform Disruption",
+      "Cost Leadership"
+    ],
+    "links": [
+      {
+        "targetId": "e1780931655506",
+        "rel": "uses_framework"
+      }
+    ],
+    "name": "Walmart",
+    "sector": "Omnichannel retailer",
+    "founded": "1962",
+    "description": "Walmart cracked the code by not trying to win everywhere at once. It targeted small towns and neighborhood markets that larger retailers often ignored, where competition was lighter and the customer base was highly price sensitive. In those markets, Walmart was willing to accept weaker gross margins and effectively a worse deal on COGS, but it offset that through an extremely lean operating model, disciplined logistics, and low SG&A. The result was a business that could still generate strong profits because it won on volume, efficiency, and scale rather than on premium pricing.",
+    "revenueEngine": "Walmart’s revenue engine is built on high footfall, high inventory turnover, and repeat purchases driven by low prices and convenience. By serving underserved local markets, it captured demand that was both sticky and frequent. Even with thinner margins, the company could generate strong absolute profit because the model relied on massive transaction volume and tight cost control.",
+    "flywheel": "Lower prices attract more customers. More customers increase sales volume. Higher volume improves supplier bargaining power and distribution efficiency. Better efficiency reduces operating costs and supports even lower prices. That reinforces customer loyalty and strengthens Walmart’s market position. It is a classic scale-driven flywheel: price advantage creates volume, and volume creates cost advantage.",
+    "switchingCosts": "The switching cost is not contractual; it is practical. Customers keep returning because Walmart is nearby, affordable, and predictable. Once a household trusts it for everyday essentials, the combination of convenience, habit, and perceived value makes switching less attractive.",
+    "failurePoints": "The model weakens if local competition intensifies, transportation costs rise sharply, or operating discipline slips. If SG&A starts to creep up faster than sales volume, the whole advantage gets squeezed. The business also depends on maintaining price leadership, so any loss of scale or supply-chain efficiency can hit margins fast.",
+    "id": "e1780932273756"
   }
 ]
