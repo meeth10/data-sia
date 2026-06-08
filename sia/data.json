@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "type": "framework",
+    "tags": [
+      "Case Study"
+    ],
+    "links": [],
+    "name": "No Barriers to Entry",
+    "author": "Competition Demystified",
+    "year": "",
+    "description": "When a segment has no barriers to entry, the existing firms pose no competitive edge and entry of a new company would reduce the profits of existing firms.",
+    "keyComponents": "- We see no Edge with the existing firms. \n- The segment replicates a commodities market ( \"Fish Market\")\n- We see Market Share and Profitability be vary.",
+    "useCases": "",
+    "id": "e1780931655506"
+  }
+]
