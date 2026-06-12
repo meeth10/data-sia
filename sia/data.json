@@ -20,11 +20,11 @@
     "switchingCosts": "The switching cost is not contractual; it is practical. Customers keep returning because Walmart is nearby, affordable, and predictable. Once a household trusts it for everyday essentials, the combination of convenience, habit, and perceived value makes switching less attractive.",
     "failurePoints": "The model weakens if local competition intensifies, transportation costs rise sharply, or operating discipline slips. If SG&A starts to creep up faster than sales volume, the whole advantage gets squeezed. The business also depends on maintaining price leadership, so any loss of scale or supply-chain efficiency can hit margins fast.",
     "id": "e1780932273756",
-    "x": 583.568621200102,
-    "y": 458.5236418256677,
+    "x": 635.0437010755533,
+    "y": 363.8048221819153,
     "index": 0,
-    "vy": -0.0009422673240829478,
-    "vx": 0.0006860658452128955,
+    "vy": -0.0005909822838821821,
+    "vx": 0.00042285944582336475,
     "fx": null,
     "fy": null
   },
@@ -45,6 +45,39 @@
     "outcome": "",
     "whatHappened": "",
     "lessons": "",
-    "id": "n1781293860167"
+    "id": "n1781293860167",
+    "x": 566.2543751432734,
+    "y": 507.5980038502124,
+    "index": 1,
+    "vy": -0.0005887553437627617,
+    "vx": 0.0004217940983018122
+  },
+  {
+    "type": "strategy",
+    "links": [
+      {
+        "targetId": "e1780932273756",
+        "rel": "leveraged",
+        "label": ""
+      },
+      {
+        "targetId": "n1781293860167",
+        "rel": "creates",
+        "label": ""
+      }
+    ],
+    "name": "No Barriers to Entry",
+    "description": "",
+    "examples": "",
+    "parentId": null,
+    "corePhilosophy": "nnnn",
+    "howToExecute": "nnn",
+    "forcesCountered": "nnn",
+    "flywheel": "",
+    "commitments": "",
+    "risks": "",
+    "tradeoffs": "",
+    "whenToUse": "",
+    "id": "n1781293928183"
   }
 ]
