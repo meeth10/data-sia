@@ -12,11 +12,11 @@
     "keyComponents": "- We see no Edge with the existing firms. \n- The segment replicates a commodities market ( \"Fish Market\")\n- We see Market Share and Profitability be vary.",
     "useCases": "",
     "id": "e1780931655506",
-    "x": 611.5513647023785,
-    "y": 221.9838272063078,
+    "x": 674.2231082029745,
+    "y": 399.74544925083575,
     "index": 0,
-    "vy": 0.001945942681030356,
-    "vx": 0.0012338195033452166,
+    "vy": -0.00026245957379838493,
+    "vx": 0.0006190846503849348,
     "fx": null,
     "fy": null
   },
@@ -46,11 +46,13 @@
     "switchingCosts": "The switching cost is not contractual; it is practical. Customers keep returning because Walmart is nearby, affordable, and predictable. Once a household trusts it for everyday essentials, the combination of convenience, habit, and perceived value makes switching less attractive.",
     "failurePoints": "The model weakens if local competition intensifies, transportation costs rise sharply, or operating discipline slips. If SG&A starts to creep up faster than sales volume, the whole advantage gets squeezed. The business also depends on maintaining price leadership, so any loss of scale or supply-chain efficiency can hit margins fast.",
     "id": "e1780932273756",
-    "x": 520.757865082974,
-    "y": 339.40355103764546,
+    "x": 526.2958166849046,
+    "y": 390.8043335642853,
     "index": 1,
-    "vy": 0.0018971492451584056,
-    "vx": 0.0012715484866600883
+    "vy": 0.0003028964578305795,
+    "vx": 0.000589443895381536,
+    "fx": null,
+    "fy": null
   },
   {
     "type": "force",
@@ -59,15 +61,18 @@
         "targetId": "e1780931655506",
         "rel": "reduces",
         "label": ""
-      },
-      {
-        "targetId": "e1780932273756",
-        "rel": "reduces",
-        "label": ""
       }
     ],
     "name": "threat of entrant",
     "description": "old firms\new firms",
-    "id": "n1781292065893"
+    "id": "n1781292065893",
+    "x": 605.8857487081627,
+    "y": 226.67721178188668,
+    "index": 2,
+    "vy": 0,
+    "vx": 0,
+    "fx": 605.8857487081627,
+    "fy": 226.67721178188668,
+    "collapsed": true
   }
 ]
