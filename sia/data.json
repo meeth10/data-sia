@@ -20,27 +20,12 @@
     "switchingCosts": "The switching cost is not contractual; it is practical. Customers keep returning because Walmart is nearby, affordable, and predictable. Once a household trusts it for everyday essentials, the combination of convenience, habit, and perceived value makes switching less attractive.",
     "failurePoints": "The model weakens if local competition intensifies, transportation costs rise sharply, or operating discipline slips. If SG&A starts to creep up faster than sales volume, the whole advantage gets squeezed. The business also depends on maintaining price leadership, so any loss of scale or supply-chain efficiency can hit margins fast.",
     "id": "e1780932273756",
-    "x": 548.632908782409,
-    "y": 506.5058959763812,
-    "index": 1,
-    "vy": -0.0007611174888225153,
-    "vx": 0.00041033503515181604,
+    "x": 562.5873995077894,
+    "y": 487.34000071884645,
+    "index": 0,
+    "vy": -0.0013872213217755007,
+    "vx": 0.0010100373262412678,
     "fx": null,
     "fy": null
-  },
-  {
-    "type": "force",
-    "links": [],
-    "name": "threat of entrant",
-    "description": "old firms\new firms",
-    "id": "n1781292065893",
-    "x": 605.8857487081627,
-    "y": 226.67721178188668,
-    "index": 2,
-    "vy": 0,
-    "vx": 0,
-    "fx": 605.8857487081627,
-    "fy": 226.67721178188668,
-    "collapsed": false
   }
 ]
