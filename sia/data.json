@@ -11,7 +11,14 @@
     "description": "When a segment has no barriers to entry, the existing firms pose no competitive edge and entry of a new company would reduce the profits of existing firms.",
     "keyComponents": "- We see no Edge with the existing firms. \n- The segment replicates a commodities market ( \"Fish Market\")\n- We see Market Share and Profitability be vary.",
     "useCases": "",
-    "id": "e1780931655506"
+    "id": "e1780931655506",
+    "x": 611.5513647023785,
+    "y": 221.9838272063078,
+    "index": 0,
+    "vy": 0.001945942681030356,
+    "vx": 0.0012338195033452166,
+    "fx": null,
+    "fy": null
   },
   {
     "type": "company",
@@ -38,6 +45,29 @@
     "flywheel": "Lower prices attract more customers. More customers increase sales volume. Higher volume improves supplier bargaining power and distribution efficiency. Better efficiency reduces operating costs and supports even lower prices. That reinforces customer loyalty and strengthens Walmart’s market position. It is a classic scale-driven flywheel: price advantage creates volume, and volume creates cost advantage.",
     "switchingCosts": "The switching cost is not contractual; it is practical. Customers keep returning because Walmart is nearby, affordable, and predictable. Once a household trusts it for everyday essentials, the combination of convenience, habit, and perceived value makes switching less attractive.",
     "failurePoints": "The model weakens if local competition intensifies, transportation costs rise sharply, or operating discipline slips. If SG&A starts to creep up faster than sales volume, the whole advantage gets squeezed. The business also depends on maintaining price leadership, so any loss of scale or supply-chain efficiency can hit margins fast.",
-    "id": "e1780932273756"
+    "id": "e1780932273756",
+    "x": 520.757865082974,
+    "y": 339.40355103764546,
+    "index": 1,
+    "vy": 0.0018971492451584056,
+    "vx": 0.0012715484866600883
+  },
+  {
+    "type": "force",
+    "links": [
+      {
+        "targetId": "e1780931655506",
+        "rel": "reduces",
+        "label": ""
+      },
+      {
+        "targetId": "e1780932273756",
+        "rel": "reduces",
+        "label": ""
+      }
+    ],
+    "name": "threat of entrant",
+    "description": "old firms\new firms",
+    "id": "n1781292065893"
   }
 ]
