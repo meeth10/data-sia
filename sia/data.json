@@ -2,24 +2,6 @@
   {
     "type": "company",
     "links": [],
-    "name": "Walmart",
-    "description": "",
-    "examples": "",
-    "parentId": null,
-    "industry": "ooo",
-    "outcome": "",
-    "whatHappened": "",
-    "lessons": "",
-    "id": "n1781293860167",
-    "x": 625.7336572531098,
-    "y": 469.5807847544997,
-    "index": 0,
-    "vy": -0.0011207214086933841,
-    "vx": 0.000034994645545208154
-  },
-  {
-    "type": "company",
-    "links": [],
     "name": "Apple",
     "description": "iphones\n",
     "examples": "",
@@ -28,6 +10,11 @@
     "outcome": "Success",
     "whatHappened": "",
     "lessons": "",
-    "id": "n1781361846021"
+    "id": "n1781361846021",
+    "x": 566.5754328709454,
+    "y": 424.0825352116284,
+    "index": 1,
+    "vy": -0.0020674674570360196,
+    "vx": -0.001092836150487588
   }
 ]
