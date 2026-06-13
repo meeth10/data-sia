@@ -11,10 +11,23 @@
     "whatHappened": "",
     "lessons": "",
     "id": "n1781293860167",
-    "x": 624.6644207701432,
-    "y": 503.8530484654499,
-    "index": 1,
-    "vy": -0.0006167402918728853,
-    "vx": -0.0005865991214955168
+    "x": 625.7336572531098,
+    "y": 469.5807847544997,
+    "index": 0,
+    "vy": -0.0011207214086933841,
+    "vx": 0.000034994645545208154
+  },
+  {
+    "type": "company",
+    "links": [],
+    "name": "Apple",
+    "description": "iphones\n",
+    "examples": "",
+    "parentId": null,
+    "industry": "Iphones",
+    "outcome": "Success",
+    "whatHappened": "",
+    "lessons": "",
+    "id": "n1781361846021"
   }
 ]
